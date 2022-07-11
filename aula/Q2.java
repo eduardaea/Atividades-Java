@@ -19,7 +19,7 @@ public class Q2 {
 			rq = Math.sqrt(num);
 			System.out.println("O número e par e sua raiz quadrada é igual a: "+rq);
 		}
-		else if (num%3 == 0) {
+		else if (num%2 != 0) {
 			quad = Math.pow(num, 2);
 			System.out.println("O número e impar e elevado ao quadrado é igual a: "+ quad);
 		}
