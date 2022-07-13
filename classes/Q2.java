@@ -12,7 +12,7 @@ public class Q2 {
 		 boeing.setModelo(input.next());
 		 System.out.println("Digite o ano deste modelo");
 		 boeing.setAno(input.nextInt());
-		 System.out.println(boeing.estacionado);
+		 System.out.println();
 		 
 	}
 
