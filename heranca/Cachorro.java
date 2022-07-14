@@ -1,9 +1,12 @@
 package heranca;
 
 public class Cachorro  extends Animal{
-	
+	Cachorro(){
+		super ("Bob",10);
+	}
+	@Override
 	public void emitirsom() {
-		this.getSom();	
+		System.out.println("AUAUAUAUUAUA");
 	}
 	public void correr (){
 		System.out.println("Cachorro correndo...");		

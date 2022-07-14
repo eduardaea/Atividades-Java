@@ -1,23 +1,20 @@
 package heranca;
 
-public class Animal {
+abstract public class Animal {
 	
-	protected String nome;
-	protected int idade;
-	private String som;
+	private String nome;
+	private int idade;
 	
-	
-	public void  emitirsom() {
-		 System.out.println(this.som);
+	Animal(String nome,int idade){
+		this.nome = nome;
+		this.idade = idade;
+				
 	}
 	
-	public String getSom() {
-		return this.som;
-	}
+	
+	abstract public void  emitirsom();
+	
 
-	public void setSom(String som) {
-		this.som = som;
-	}
 
 	public String getNome() {
 		return nome;

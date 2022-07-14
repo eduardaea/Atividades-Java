@@ -3,9 +3,11 @@ package heranca;
 public class Testeanimais {
 
 	public static void main(String[] args) {
-		Animal cavalo = new Cavalo();
-		cavalo.setSom("relinchando");
+		Cavalo cavalo = new Cavalo("Yago",30);
+		Preguica preguica = new Preguica();
+		Cachorro yago = new Cachorro();
 		cavalo.emitirsom();
+		cavalo.correr();
 	}
 
 }
